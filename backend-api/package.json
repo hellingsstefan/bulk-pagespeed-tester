@@ -1,0 +1,22 @@
+{
+  "name": "pagespeed-tester",
+  "version": "1.0.0",
+  "description": "Test pagespeed of webpages in bulk",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "Pagespeed",
+    "bulk"
+  ],
+  "author": "Stefan Hellings",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0"
+  }
+}
